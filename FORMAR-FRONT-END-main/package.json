@@ -1,0 +1,34 @@
+{
+  "name": "formar-front-end",
+  "version": "1.0.0",
+  "description": "Proyecto React para FORMAR-FRONT-END",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JulioArturoRodriguez/FORMAR-FRONT-END.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JulioArturoRodriguez/FORMAR-FRONT-END/issues"
+  },
+  "homepage": "https://github.com/JulioArturoRodriguez/FORMAR-FRONT-END#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.7",
+    "bootstrap-icons": "^1.13.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^5.5.0",
+    "react-router-dom": "^7.6.3"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.6.0",
+    "vite": "^4.5.14"
+  }
+}

@@ -1,0 +1,51 @@
+body {
+  margin: 0; 
+  background-color: antiquewhite; 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+.app-container {
+  display: flex;
+  justify-content: center; 
+  align-items: center;   
+  min-height: 100vh;     
+  padding: 1rem;
+  box-sizing: border-box;
+  background-color: darkgreen;
+}
+
+.content-container {
+  width: 100%;
+  max-width: 1000px; 
+  background-color: #c0c0c0;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.table {
+  border: none;
+}
+
+.table thead th {
+  vertical-align: middle;
+}
+
+.table tbody td input.form-control-sm {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.875rem;
+  max-width: 100%;
+}
+
+.btn {
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+.table-responsive {
+  overflow-x: auto;
+}
